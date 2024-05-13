@@ -1,3 +1,5 @@
+alert("You must be over 18 to enter this site")
+
 function displayRecipe(response) {
     new Typewriter('#recipe', {
         strings: response.data.answer,
