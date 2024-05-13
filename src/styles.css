@@ -49,16 +49,29 @@ text-decoration: underline;
 h4 {
   font-family: "Inter", sans-serif;
   font-weight: 400;
+  font-size: 18px;
+  line-height: 2;
+  text-align: center;
   font-style: normal;
   font-variation-settings:
     "slnt" -9;
 }
 
-form {
-    padding:30px;
-    display: flex;
-    margin-bottom: 30px;
+.form-container {
+  padding:30px;
+  margin-bottom: 30px;
     color: black;
+}
+
+form {
+    display: flex;
+    margin: 5px;
+    
+}
+
+small {
+  opacity: .6;
+  margin-left: 10px;
 }
 
 input:placeholder {
@@ -116,4 +129,9 @@ ul {
   color: black;
   padding:0px;
 
+}
+
+img {
+  display: block;
+  margin: 0 auto;
 }
