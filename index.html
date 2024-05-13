@@ -8,18 +8,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 </head>
 <body><div class="container">
 
 
     <h1>Cocktail Recipe Generator.</h1>
     <main>
-        <form>
+        <form id="recipe-form">
         <input type="text" placeholder="Enter a drink you'd like to make..." autofocus required autocomplete="off" class="instructions">
         <input type="submit" class="submit-button">
     </form>
-    <div class="recipe">
-        <div class="box">
+    <div class="recipe" id="recipe">
+       
         <h2>INGREDIENTS:</h2>
         <ul><li>
             50ml Tanqueray London Dry Gin
@@ -29,10 +30,10 @@
             25ml sugar syrup
         </li><li>
             125ml chilled soda water
-        </li></ul></div>
-        <div class="box">
+        </li></ul>
+        
          Method: <br/>
-         1. <br/></div>
+         1. <br/>
     </div>
     </main>
     
