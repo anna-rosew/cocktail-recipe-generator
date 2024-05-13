@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Concept Art Generator</title>
     <link rel="stylesheet" href="src/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Inter:wght@100..900&display=swap" rel="stylesheet">
@@ -16,13 +18,14 @@
     <h1>Cocktail Recipe Generator.</h1>
     <main>
         <form id="recipe-form">
-        <input type="text" placeholder="Enter a drink you'd like to make..." autofocus required autocomplete="off" class="instructions">
-        <input type="submit" class="submit-button">
+        <input type="text" placeholder="Enter a drink you'd like to make..." autofocus required autocomplete="off" class="instructions" id="recipe-input">
+        <input type="submit" class="submit-button"> 
     </form>
     <div class="recipe" id="recipe">
+        <h2>Tom Collins Cocktail</h2>
        
-        <h2>INGREDIENTS:</h2>
-        <ul><li>
+        <h3>INGREDIENTS:</h3>
+        <ul class="ingredients"><li>
             50ml Tanqueray London Dry Gin
         </li><li>
             25ml lemon juice
@@ -32,8 +35,10 @@
             125ml chilled soda water
         </li></ul>
         
-         Method: <br/>
-         1. <br/>
+        <h3>METHOD:</h3>
+        <ul class="method"><li class="method">
+            Build the drink over plenty of ice in a Collins glass, stir gently and garnish with a slice of lemon.
+        </li></ul>
     </div>
     </main>
     

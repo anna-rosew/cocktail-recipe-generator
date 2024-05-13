@@ -1,3 +1,5 @@
+
+
 body {
     background-color: #E67D42;
 font-family: "Inter", sans-serif;
@@ -25,12 +27,31 @@ h1 {
 }
 
 h2 {
+  text-align: center;
+  font-family: "Almarai", sans-serif;
+font-weight: 700;
+font-style: bold;
+font-size: 18px;
+line-height: 1;
+border-bottom: 1px solid black;
+border-top: 1px solid black;
+}
+
+h3 {
   font-family: "Almarai", sans-serif;
 font-weight: 400;
 font-size: 15px;
 line-height: 1.5;
 text-decoration: underline;
 
+}
+
+h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" -9;
 }
 
 form {
@@ -76,15 +97,14 @@ border: 1px solid black;
   border: 1px solid black;
 
   }
+
 ul {
   padding: 0px;
 }
   
-
-  li {
+  .ingredients li {
     border-bottom: 1px solid black;
     list-style: none;
-  
   }
 
   footer {
@@ -92,3 +112,8 @@ ul {
     padding: 10px;
 }
 
+.method li {
+  color: black;
+  padding:0px;
+
+}
