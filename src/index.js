@@ -1,4 +1,21 @@
-alert("You must be over 18 to enter this site")
+var yourAge = prompt("Please enter your age: ");
+if (yourAge < 19) {
+   alert("Users under the age of 19 cannot access this page");
+   location.href = ("../html/index.html");
+}
+
+//if (yourAge >= 19) {
+  //  function wishWell(amsg, callback){
+    //    alert(amsg);
+      //  if(typeof callback == "function") {
+        //    callback();
+        //}
+    //}
+
+    //wishWell("Enjoy!", function(){
+      //  location.href = ("index.html");
+    //});
+//}
 
 function displayRecipe(response) {
     new Typewriter('#recipe', {
