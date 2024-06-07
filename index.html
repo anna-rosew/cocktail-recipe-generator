@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cocktail Recipe Generator</title>
+    <link rel="icon" type="image/x-icon" href="/src/imgs/favicon.ico" />
     <link rel="stylesheet" href="src/styles.css" />
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,7 +16,6 @@
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
-    <!-- Age Alert Modal -->
     <div id="age-alert" class="age-alert">
       <div class="age-alert-content">
         <h2>Age Verification</h2>
@@ -30,15 +29,14 @@
       </div>
     </div>
 
-    <!-- Main Content -->
-    <div id="main-content" class="container">
+    <div id="main-content" class="container" style="display: none">
       <h1>Cocktail Recipe Generator</h1>
       <main>
         <div class="form-container">
           <form id="recipe-form">
             <input
               type="text"
-              placeholder="Enter the name of a cocktail you'd like to make..."
+              placeholder="Enter a cocktail or prompt..."
               autofocus
               required
               autocomplete="off"
@@ -68,19 +66,27 @@
         </div>
       </main>
     </div>
-
+    <a href="https://www.drinkaware.co.uk/" alt="Drinkaware UK" target="_blank"
+      ><img
+        src="/src/imgs/drink-responsibly.svg"
+        alt="Drink Responsibly"
+        class="drink-responsibly"
+    /></a>
     <footer>
-      <a href="https://github.com/anna-rosew" class="footer-links"
+      <a
+        href="https://github.com/anna-rosew"
+        class="footer-links"
+        target="_blank"
         >@Anna-RoseWain</a
       >
       |
       <a
         href="https://github.com/anna-rosew/cocktail-recipe-generator"
         class="footer-links"
-        >Published on GitHub</a
+        target="_blank"
+        >Open-sourced on GitHub</a
       >
     </footer>
-
     <script src="src/index.js"></script>
   </body>
 </html>
