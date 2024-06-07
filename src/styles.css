@@ -1,25 +1,60 @@
+.age-alert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
 
+.age-alert-content {
+  background: #f5f0e8;
+  padding: 20px;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.age-alert-content h2 {
+  margin-top: 0;
+}
+
+.age-alert-content button {
+  margin: 10px;
+  padding: 10px 20px;
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.age-alert-content button:hover {
+  background-color: pink;
+}
 
 body {
-    background-color: #E67D42;
-font-family: "Inter", sans-serif;
+  background-color: #e67d42;
+  font-family: "Inter", sans-serif;
 }
 
 a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
-.container{
-    margin: 120px auto;
-    max-width: 600px;
-    border: 1px solid black;
-    padding: 20px;
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+  border: 1px solid black;
+  padding: 20px;
 }
 
 h1 {
-    text-align: center;
-    font-family: "Almarai", sans-serif;
+  text-align: center;
+  font-family: "Almarai", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 48px;
@@ -30,21 +65,19 @@ h2 {
   text-align: center;
   font-family: "Almarai", sans-serif;
   text-transform: uppercase;
-font-weight: 600;
-font-style: bold;
-font-size: 20px;
-line-height: 1;
-letter-spacing: 3px;
-
+  font-weight: 600;
+  font-style: bold;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: 3px;
 }
 
 h3 {
   font-family: "Almarai", sans-serif;
-font-weight: 400;
-font-size: 15px;
-line-height: 1.5;
-text-decoration: underline;
-
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5;
+  text-decoration: underline;
 }
 
 h4 {
@@ -54,20 +87,18 @@ h4 {
   line-height: 2;
   text-align: center;
   font-style: normal;
-  font-variation-settings:
-    "slnt" -9;
+  font-variation-settings: "slnt" -9;
 }
 
 .form-container {
-  padding:30px;
+  padding: 30px;
   margin-bottom: 30px;
-    color: black;
+  color: black;
 }
 
 form {
-    display: flex;
-    margin: 5px;
-    
+  display: flex;
+  margin: 5px;
 }
 
 img {
@@ -76,59 +107,56 @@ img {
 }
 
 small {
-  opacity: .6;
+  opacity: 0.6;
   margin-left: 10px;
 }
 
 input:placeholder {
-    color: black;
+  color: black;
 }
 
-
-.instructions{
-padding: 16px;
+.instructions {
+  padding: 16px;
   border: 1px solid black;
   width: 80%;
   font-size: 16px;
-background-color: #E67D42;
+  background-color: #e67d42;
   line-height: 20px;
 }
 
 .submit-button {
-    margin-left: 10px;
-    background: none;
- 
-    border: none;
-    width: 150px;
-    font-size: 16px;
-border: 1px solid black;
-    padding: 14px 24px;
-    cursor: url("./imgs/cocktail.svg") 12 12, auto;
-  }
+  margin-left: 10px;
+  background: none;
 
+  border: none;
+  width: 150px;
+  font-size: 16px;
+  border: 1px solid black;
+  padding: 14px 24px;
+  cursor: url("./imgs/cocktail.svg") 12 12, auto;
+}
 
-  .recipe {
-    text-align: left;
-    font-size: 12px;
+.recipe {
+  text-align: left;
+  font-size: 12px;
   background-color: none;
   padding: 20px;
   line-height: 2;
   border: 1px solid black;
-
-  }
+}
 
 ul {
   padding: 0px;
 }
-  
-  .ingredients li {
-    border-bottom: 1px solid black;
-    list-style: none;
-  }
 
-  footer {
-    text-align: center;
-    padding: 10px;
+.ingredients li {
+  border-bottom: 1px solid black;
+  list-style: none;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
 }
 
 footer a {
@@ -137,7 +165,7 @@ footer a {
 
 .method li {
   color: black;
-  padding:0px;
+  padding: 0px;
 }
 
 .footer-links {
